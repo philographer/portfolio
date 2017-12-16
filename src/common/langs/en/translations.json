@@ -1,0 +1,11 @@
+{
+  "translations": {
+    "helloDesc": "Hello!",
+    "firstAgeDesc": "Am ",
+    "secondAgeDesc": "YEARS OLD",
+    "hobbyDesc": "Like Tennis",
+    "whereDesc": "LIVE IN KOREA INCHEON",
+    "studiedAtDesc": "I STUDIED AT INHA Univ.",
+    "whoAmIDesc": "PROGRAMMER"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "translations": {
+    "helloDesc": "안녕하세요",
+    "firstAgeDesc": "저는",
+    "secondAgeDesc": "살입니다",
+    "hobbyDesc": "저는 테니스를 좋아합니다.",
+    "whereDesc": "현재 인천에 살고있습니다.",
+    "studiedAtDesc": "인하대학교에서 공부했습니다.",
+    "whoAmIDesc": "저는 Programmer입니다. Choicer. Inspirerer"
+  }
+}

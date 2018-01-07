@@ -38,12 +38,12 @@ export default class Main extends Component {
     }
 
     render() {
-        const { t, i18n } = this.props;
+        const { t } = this.props;
         return(
           <Div backgroundColor={'red'}>
-            <Video autoPlay muted loop>
-              <source src="https://s3-ap-northeast-1.amazonaws.com/inha-tastingparty/497632384.mp4" type="video/mp4"/>
-            </Video>
+            {/*<Video autoPlay muted loop>*/}
+              {/*<source src="https://s3-ap-northeast-1.amazonaws.com/inha-tastingparty/497632384.mp4" type="video/mp4"/>*/}
+            {/*</Video>*/}
             <FirstPageDiv>
               {/*<div style={'ss'}>*/}
               <HeightLineDiv/>

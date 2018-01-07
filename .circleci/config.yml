@@ -27,6 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
+      - run: npm install -g codecov
 
       - save_cache:
           paths:
@@ -35,9 +36,7 @@ jobs:
 
       # run tests!
       - run: yarn test
-      - run:
-          name: Generate code coverage
-          command: './node_modules/.bin/nyc report --reporter=text-lcov'
+      - run: codecov
       - store_artifacts:
           path: test-results.xml
           prefix: tests

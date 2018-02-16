@@ -38,7 +38,7 @@ jobs:
       - run: yarn test
       - run: codecov
       - store_artifacts:
-          path: test-results.xml
+          path: clover.xml
           prefix: tests
       - store_artifacts:
           path: coverage
